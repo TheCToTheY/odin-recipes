@@ -1,9 +1,28 @@
 body {
-    background-color: lightskyblue;
+    background-color: skyblue;
 }
 
 p, ul, li {
     font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+}
+
+#merc-corba {
+    background: url("img/mercimek-corbasi.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+#tavuk-burger {
+    background: url("img/tavuk-burger.jpeg");
+    background-position: center;
+    background-size: auto;
+}
+
+#tavuk-sote {
+    background: url("img/tavuksote-done.jpg");
+    background-position: center;
+    background-size: contain;
 }
 
 h {
@@ -11,6 +30,18 @@ h {
 }
 
 button {
-    background-color: lavender;
-    color: black;
+    width: 400px;
+    height: 300px;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.introbox {
+    background-color: aliceblue;
+    padding: 16px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: black;
+    
 }
